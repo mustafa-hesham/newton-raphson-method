@@ -58,7 +58,7 @@ int main(){
 	xi1 = xi -(resultxi/resultxis);
     apperror = (xi1 - xi)*100/xi1;
     
-    cout<<"The relative error is "<<apperror<<"%"<<endl;
+    cout<<"The percentage error is "<<apperror<<"%"<<endl;
     cout<<"The f(xi) is "<<resultxi<<endl;
     cout<<"The f'(xi) is "<<resultxis<<endl;
     cout<<"Xi+1 is "<<xi1<<endl;
